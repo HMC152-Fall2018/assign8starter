@@ -55,6 +55,10 @@ The starter code doesn't ever update the Q function.  Your goal is to add code
 to ```Main``` that will implement the Sarsa and Q-Learning algorithms (which one should be
 controlled by the ``alg`` command-line argument).
 
+Use a value of 1 for the discount factor (ɣ).  
+I suggest a learning rate (⍺) of 0.5, but you can 
+choose it yourself.
+
 You will be doing four combinations:
 * ```--env windy --alg sarsa```
 * ```--env windy --alg qlearning```
