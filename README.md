@@ -51,8 +51,8 @@ average reward/episode -9007.9
 As you can see, it prints the Q and 𝜋 values every so many cycles.  
 It also prints the average reward/episode over the last 10 cycles.
 
-The starter code doesn't ever update the Q function.  Your goal is to add code
-to ```Main``` that will implement the Sarsa and Q-Learning algorithms (which one should be
+The starter code doesn't ever update the Q function.  Your goal is to modify the code
+in ```Main``` that will implement the Sarsa and Q-Learning algorithms (which one should be
 controlled by the ``alg`` command-line argument).
 
 Use a value of 1 for the discount factor (ɣ).  
