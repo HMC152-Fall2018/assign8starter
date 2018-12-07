@@ -100,8 +100,7 @@ class Cliff(Gridworld):
         row = max(0, min(row, self.rows-1))
         if row == self.rows-1 and col > 0 and col < self.cols-1:
             self.current_state = self.start_state
-            reward = 100
-            return (self.start_state, -100)
+            reward = -100
         else:
             self.current_state = (col, row)
             reward = -1
